@@ -22,11 +22,11 @@
  *
  * Tutorial is at http://www.ladyada.net/learn/arduino/ethfiles.html
  * Pull requests should go to http://github.com/adafruit/SDWebBrowse
+ * Edit Apr 12, 2018 to change SD card access to modern SD.h and change Ethernet lib to Ethernet2 for W5500
  */
 
-#include <SdFat.h>
-#include <SdFatUtil.h>
-#include <Ethernet.h>
+#include <SD.h>
+#include <Ethernet2.h>
 #include <SPI.h>
 
 /************ ETHERNET STUFF ************/
